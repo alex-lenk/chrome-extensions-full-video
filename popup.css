@@ -1,0 +1,10 @@
+body {
+  background: black !important;
+}
+
+.center-block,
+.center-block,
+.container {
+  max-width: none !important;
+  width: auto !important;
+}
