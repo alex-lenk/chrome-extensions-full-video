@@ -1,5 +1,12 @@
-body {
-  background: black !important;
+body,
+.lesson-answer-comment {
+  background: #333333 !important;
+}
+
+.comments-tree .worker .text,
+.b-like .button,
+a {
+  color: #94c2ea !important;
 }
 
 .center-block,
@@ -7,4 +14,14 @@ body {
 .container {
   max-width: none !important;
   width: auto !important;
+}
+
+.block-set,
+.text-muted {
+  color: #eee !important;
+}
+.comments-tree,
+.block-set {
+  font-size: 16px !important;
+  line-height: 26px !important;
 }
