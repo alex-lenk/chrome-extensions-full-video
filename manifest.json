@@ -20,9 +20,8 @@
   "permissions": ["activeTab", "scripting"],
   "content_scripts": [
     {
-      "matches": ["https://ulbitv.ru/*"],
-      "js": ["popup.js"],
-      "css" : ["popup.css"]
+      "matches": ["https://ulbitv.ru/*", "https://lk.result.school/*"],
+      "css" : ["styles.css"]
     }
   ]
 }

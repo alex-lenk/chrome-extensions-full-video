@@ -20,6 +20,7 @@ a {
 .text-muted {
   color: #eee !important;
 }
+
 .comments-tree,
 .block-set {
   font-size: 16px !important;
@@ -38,4 +39,14 @@ input {
 
 .lesson-list {
   background-color: #333 !important;
+}
+
+/***/
+
+html {
+  --container-width: 100% !important;
+}
+
+.lite-page .lt-block .container {
+  max-width: none !important;
 }
