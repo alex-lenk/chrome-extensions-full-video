@@ -17,7 +17,9 @@ a {
 }
 
 .block-set,
-.text-muted {
+.text-muted,
+.answer-text,
+.text-content {
   color: #eee !important;
 }
 
@@ -27,9 +29,14 @@ a {
   line-height: 26px !important;
 }
 
-textarea,
-input {
+.simple-answer .new-comment-textarea,
+.simple-answer input {
   color: #333333 !important;
+}
+
+.lesson-mission-wrapper .answer-form input,
+.lesson-mission-wrapper .answer-form textarea {
+  color: white !important;
 }
 
 .stream-table tr td {
