@@ -34,9 +34,12 @@ a {
   color: #333333 !important;
 }
 
-.lesson-mission-wrapper .answer-form input,
-.lesson-mission-wrapper .answer-form textarea {
+body.gc-user-logined {
   color: white !important;
+}
+
+.comment-form-wrapper .new-comment-textarea {
+  background-color: #222;
 }
 
 .stream-table tr td {
@@ -44,8 +47,14 @@ a {
   border-bottom: 8px solid;
 }
 
+.lesson-header-block.row-section,
 .lesson-list {
   background-color: #333 !important;
+}
+
+.user-state-bg,
+.lesson-list li .info {
+  background-color: #111 !important;
 }
 
 /***/
