@@ -57,6 +57,10 @@ body.gc-user-logined {
   background-color: #111 !important;
 }
 
+.stream-table tr td {
+  background-color: #222 !important;
+}
+
 /***/
 
 html {
